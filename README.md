@@ -1,4 +1,4 @@
-<h1 align="center">Beecrowd.</h1>
+<h1 align="center">Beecrowd (URI Online Judge).</h1>
 
 <p align="center">Hello, World! 🌎</p>
 <p align="center">Bem-vindo ao meu repositório dedicado aos meus algoritmos e exercícios na plataforma Beecrowd.</p>

@@ -4,5 +4,5 @@
 <p align="center">Bem-vindo ao meu repositório dedicado aos meus algoritmos e exercícios na plataforma Beecrowd.</p>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/87160095/190831079-7980492e-4346-4f30-a5fa-15c39ef02bff.png">
+  <img src="https://user-images.githubusercontent.com/87160095/190879964-42e4da09-6e76-4a57-ac05-37055c4ee0b7.jpg">
 </div>

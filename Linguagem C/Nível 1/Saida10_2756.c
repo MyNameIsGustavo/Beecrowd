@@ -6,13 +6,6 @@
 */
 
 #include <stdio.h>
-/*	Desenvolvedor: @Gustavo Rocha.
-	Tecnologia utilizada: C.
-	Nome do exercício: Saída 10. 
-	ID: 2756
-	Status da submissão: ACEITA.
-*/
-
 int main() {
 
     printf("       A\n");

@@ -1,3 +1,10 @@
+/*	Desenvolvedor: @Gustavo Rocha.
+	Tecnologia utilizada: Java.
+	Nome do exercício: Diferença. 
+	ID: 1007
+	Status da submissão: ACEITA.
+*/
+
 import java.util.Scanner;
 
 public class Main 

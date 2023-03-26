@@ -16,12 +16,10 @@ int main (void)
     for(AuxFor = 0; AuxFor < QtdeTeste; AuxFor++)
     {   scanf("%d %d", &X, &Y);
     
-        if(Y == 0){   
+        if(Y == 0)   
             printf("divisao impossivel\n");
-        }
-        else{   
+        else   
             printf("%.1f\n", (float)X/Y);   
-        }
     }
     return 0;
 }

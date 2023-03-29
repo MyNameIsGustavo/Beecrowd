@@ -10,27 +10,23 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define     TAM_VETOR    20
+
 int main(void)
-{  int vetor[20];
-   int aux, i, vet;
+{  int vetor[TAM_VETOR];
+   int aux, i;
    
-   for(i = 0; i < 20; i++){
+   for(i = 0; i < TAM_VETOR; i++)
       scanf("%d", &vetor[i]);
+   
+   for(i = 0; i < (TAM_VETOR / 2); i++)
+   {  aux = vetor[i];
+      vetor[i] = vetor[(TAM_VETOR - 1) - i];
+      vetor[(TAM_VETOR - 1) - i] = aux;
    }
    
-   for(i = 0; i < 10; i++){
-      vet = 19;
-      
-      aux = vetor[i];
-      vetor[i] = vetor[vet];
-      vetor[vet] = aux;
-      
-      vet = vet - 1;
-   }
-   
-   for(i = 0; i < 20; i++){
-      printf("N[%d] = %d\n", i,vetor[i]);
-   }
+   for(i = 0; i < TAM_VETOR; i++)
+      printf("N[%d] = %d\n", i, vetor[i]);
    
    return 0;
 }

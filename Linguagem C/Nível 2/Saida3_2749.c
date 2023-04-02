@@ -6,16 +6,68 @@
 */
 
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <math.h>
 
-int main()
+int main(void)
 {
-    printf("---------------------------------------\n");
-    printf("|x = 35                               |\n");
-    printf("|                                     |\n");
-    printf("|               x = 35                |\n");
-    printf("|                                     |\n");
-    printf("|                               x = 35|\n");
-    printf("---------------------------------------\n");
-    
-    return 0;
+   for(int i = 0; i < 38; i++)
+   {  printf("-");
+      if(i == 37)
+         printf("-\n\n");
+   }
+   
+   printf("|");
+   for(int i = 1; i <= 37; i++)
+   {  if(i == 1)
+      {  printf("x = 35");
+         i += 5;
+      }
+      else
+         printf(" ");
+   }
+   printf("|\n\n");
+
+
+   printf("|");
+   for(int i = 1; i <= 37; i++)
+      printf(" ");
+   printf("|\n\n");
+
+   printf("|");
+   for(int i = 1; i <= 37; i++)
+   {  if(i == 16)
+      {  printf("x = 35");
+         i += 5;
+      }
+      else
+         printf(" ");
+   }
+   printf("|\n\n");
+
+   printf("|");
+   for(int i = 1; i <= 37; i++)
+      printf(" ");
+   
+   printf("|\n\n");
+
+   printf("|");
+   for(int i = 1; i <= 37; i++)
+   {  if(i == 32)
+      {  printf("x = 35");
+         i += 5;
+      }
+      else
+        printf(" ");
+   }
+   printf("|\n\n");
+
+   for(int i = 0; i < 38; i++)
+   {  printf("-");
+      if(i == 37)
+         printf("-\n");
+   }
+
+   return 0;
 }

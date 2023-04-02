@@ -4,26 +4,25 @@
 	ID: 1169
 	Status da submissão: ACEITA.
 */
-
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 #include <math.h>
 
-int main(void)
-{  int qtdeTeste, auxWhile;
-   int qtdeQuadrados, resultadoFinal;
+int main(void) 
+{  int qtdeTeste, auxWhile, qtdeQuadrados;
+   unsigned long long graosGrama, graosKG;
    
    scanf("%d", &qtdeTeste);
    
-   auxWhile = 0;
+   auxWhile = 0; 
    while(auxWhile < qtdeTeste)
    {  scanf("%d", &qtdeQuadrados);
-      
-      resultadoFinal = (pow(2, qtdeQuadrados) / 12000);   
-      
-      printf("%llu kg\n", (long long)resultadoFinal);
-      
+        
+      graosGrama = pow(2, qtdeQuadrados);
+      graosKG = (graosGrama / 12000);
+        
+      printf("%llu kg\n", graosKG);
    auxWhile++;
    }
    return 0;

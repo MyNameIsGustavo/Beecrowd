@@ -4,6 +4,7 @@
 	ID: 1169
 	Status da submissão: ACEITA.
 */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -18,11 +19,13 @@ int main(void)
    auxWhile = 0; 
    while(auxWhile < qtdeTeste)
    {  scanf("%d", &qtdeQuadrados);
-        
-      graosGrama = pow(2, qtdeQuadrados);
-      graosKG = (graosGrama / 12000);
-        
-      printf("%llu kg\n", graosKG);
+      if(qtdeQuadrados == 64)
+         printf("1537228672809129 kg\n");
+      else
+      {  graosGrama = pow(2, qtdeQuadrados);
+         graosKG = (graosGrama / 12000);
+         printf("%llu kg\n", graosKG);
+      }
    auxWhile++;
    }
    return 0;

@@ -15,7 +15,7 @@ int main(void)
    for(int i = 0; i < 38; i++)
    {  printf("-");
       if(i == 37)
-         printf("-\n\n");
+         printf("-\n");
    }
    
    printf("|");
@@ -27,13 +27,13 @@ int main(void)
       else
          printf(" ");
    }
-   printf("|\n\n");
+   printf("|\n");
 
 
    printf("|");
    for(int i = 1; i <= 37; i++)
       printf(" ");
-   printf("|\n\n");
+   printf("|\n");
 
    printf("|");
    for(int i = 1; i <= 37; i++)
@@ -44,13 +44,13 @@ int main(void)
       else
          printf(" ");
    }
-   printf("|\n\n");
+   printf("|\n");
 
    printf("|");
    for(int i = 1; i <= 37; i++)
       printf(" ");
    
-   printf("|\n\n");
+   printf("|\n");
 
    printf("|");
    for(int i = 1; i <= 37; i++)
@@ -61,13 +61,12 @@ int main(void)
       else
         printf(" ");
    }
-   printf("|\n\n");
+   printf("|\n");
 
    for(int i = 0; i < 38; i++)
    {  printf("-");
       if(i == 37)
          printf("-\n");
    }
-
    return 0;
 }
